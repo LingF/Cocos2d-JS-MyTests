@@ -1,0 +1,27 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/config/resource.js",
+        "src/config/gameConfig.js",
+        "src/main/BaseLayer.js",
+        "src/main/BaseDemo.js",
+
+        "src/unit/Unit01.js",
+        "src/unit/Unit03.js",
+        "src/unit/Unit04.js",
+        "src/unit/Data.js",
+
+        "src/main/LessonMenu.js",
+        "src/main/MainMenu.js"
+    ]
+}
